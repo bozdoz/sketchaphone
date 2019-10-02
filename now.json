@@ -5,7 +5,7 @@
     {
       "src": "./scripts/now.sh",
       "use": "@now/static-build",
-      "config": { "distDir": "now" }
+      "config": { "distDir": "public" }
     }
   ]
 }
