@@ -2,7 +2,11 @@
 
 set -ex
 
-cd ./client
+SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+cd $SCRIPTPATH
+cd ../client
+
 npm ci
 npm run build
 mv public ../now
