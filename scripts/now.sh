@@ -9,5 +9,5 @@ cd ../client
 
 npm i
 npm run build
-mv public ../
-cd ..
+mv public $SCRIPTPATH
+cd $SCRIPTPATH
