@@ -3,10 +3,9 @@
   "name": "sketchaphone",
   "builds": [
     {
-      "src": "./client/package.json",
+      "src": "./scripts/now.sh",
       "use": "@now/static-build",
-      "dest": "./client",
-      "config": { "distDir": "public" }
+      "config": { "distDir": "now" }
     }
   ]
 }
