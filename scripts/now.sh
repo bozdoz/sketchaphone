@@ -7,6 +7,6 @@ SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $SCRIPTPATH
 cd ../client
 
-npm ci
+npm i
 npm run build
 mv public ../now
